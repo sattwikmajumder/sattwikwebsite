@@ -13,3 +13,39 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+.nav{
+    poition:fixed'
+    background-color: rgb(22,22,22);
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav .container{
+    dosplay: flaex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+}
+.nav ul{
+    display:flex;
+    list-style-type: none
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a{
+    color: #ffffff;
+    padding: 7px 15px;
+
+}
+.hero{
+    background-image: url('../images/bloo.avif');
+    height: 100vh;
+    display: flex;
+    justify-content: centerl
+    align-items: center;
+    text-align: center:
+
+
+}
