@@ -41,9 +41,12 @@ body{
 }
 .hero{
     background-image: url('../images/bloo.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
     height: 100vh;
     display: flex;
-    justify-content: centerl
+    justify-content: center;
     align-items: center;
     text-align: center:
 
