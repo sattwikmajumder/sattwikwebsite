@@ -1,14 +1,14 @@
-* {
-    box-sizing: border-box;
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
-body {
-    background-color: rgb(173, 180, 220);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+.btn:hover {
+    background-color: #45a049;
 }
-
-.btn {}
