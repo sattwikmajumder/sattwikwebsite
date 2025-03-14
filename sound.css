@@ -7,10 +7,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
 }
 
+/* Styling for buttons */
 .btn {
     background-color: #4CAF50;
     color: white;
@@ -20,9 +22,9 @@ body {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 .btn:hover {
     background-color: #45a049;
 }
-
