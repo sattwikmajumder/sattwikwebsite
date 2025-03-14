@@ -1,3 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(173, 180, 220);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
 .btn {
     background-color: #4CAF50;
     color: white;
@@ -12,3 +25,4 @@
 .btn:hover {
     background-color: #45a049;
 }
+
