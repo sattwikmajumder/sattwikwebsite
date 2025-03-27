@@ -119,8 +119,8 @@ h1 {
     position: absolute;
 }
 .insect img{
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 10px;
 }
 .insect.caught {
     transform: scale(0);
