@@ -49,7 +49,7 @@ body {
 }
 
 .nav .active {
-    background-color: white;
+    background-color: green;
 }
 
 .nav .active a {
@@ -61,7 +61,7 @@ body {
 }
 
 .hero {
-    background-image: url('../images/tole.avif');
+    background-image: url('/images/tole.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
