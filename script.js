@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let buttons = document.querySelectorAll("nav ul li a");
+    let links = document.querySelectorAll("nav ul li a");
 
-    buttons.forEach(button => {
-        button.addEventListener("mouseover", function() {
+    links.forEach(link => {
+        link.addEventListener("mouseover", function() {
             this.style.transform = "scale(1.2)";
             this.style.transition = "transform 0.3s ease";
         });
 
-        button.addEventListener("mouseout", function() {
+        link.addEventListener("mouseout", function() {
             this.style.transform = "scale(1)";
         });
     });
