@@ -5,16 +5,18 @@ document.addEventListener("DOMContentLoaded", function() {
     // Check for previously stored preference
     if (localStorage.getItem("dark-mode") === "enabled") {
         body.classList.add("dark-mode");
+        darkModeToggle.textContent = "Disable Dark Mode";
     }
 
     darkModeToggle.addEventListener("click", function() {
         body.classList.toggle("dark-mode");
 
-        // Store preference in localStorage
         if (body.classList.contains("dark-mode")) {
             localStorage.setItem("dark-mode", "enabled");
+            darkModeToggle.textContent = "Disable Dark Mode";
         } else {
             localStorage.setItem("dark-mode", "disabled");
+            darkModeToggle.textContent = "Enable Dark Mode";
         }
     });
 });
