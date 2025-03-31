@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let links = document.querySelectorAll("nav ul li a");
+    let links = document.querySelectorAll("a");
 
     links.forEach(link => {
         link.addEventListener("mouseover", function() {
