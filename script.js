@@ -1,14 +1,20 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let links = document.querySelectorAll("a");
+    const darkModeToggle = document.getElementById("darkModeToggle");
+    const body = document.body;
 
-    links.forEach(link => {
-        link.addEventListener("mouseover", function() {
-            this.style.transform = "scale(1.2)";
-            this.style.transition = "transform 0.3s ease";
-        });
+    // Check for previously stored preference
+    if (localStorage.getItem("dark-mode") === "enabled") {
+        body.classList.add("dark-mode");
+    }
 
-        link.addEventListener("mouseout", function() {
-            this.style.transform = "scale(1)";
-        });
+    darkModeToggle.addEventListener("click", function() {
+        body.classList.toggle("dark-mode");
+
+        // Store preference in localStorage
+        if (body.classList.contains("dark-mode")) {
+            localStorage.setItem("dark-mode", "enabled");
+        } else {
+            localStorage.setItem("dark-mode", "disabled");
+        }
     });
 });
