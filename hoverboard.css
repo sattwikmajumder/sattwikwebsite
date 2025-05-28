@@ -1,7 +1,13 @@
-body{
+.body{
     align-items:center;
     justify-content: center;
     height: 100vh;
     margin: 0;
 }
+.container{
 
+}
+.square{
+    background-color:#1d1d1d;
+    
+}
