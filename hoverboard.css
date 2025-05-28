@@ -5,6 +5,9 @@
     margin: 0;
 }
 .container{
+    display: flex;
+    align-items: center;
+    justify-content: 
 
 }
 .square{
@@ -17,5 +20,5 @@
 
 }
 .square:hover{
-    
+    transition-duration: 0s;
 }
